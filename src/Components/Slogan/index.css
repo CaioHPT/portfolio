@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@keyframes colorCycle{
+    0%, 55%{
+        filter: brightness(0) invert(0);
+    }
+    11%, 33%{
+        filter:none;
+    }
+}
+
+@keyframes introHome{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.divSlogan{
+    padding: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height: 20rem;
+    animation: introHome 1.5s ease-in-out;
+}
+
+.divSlogan > div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.divSlogan h1{
+    font-family: 'Lobster', cursive;
+    font-size:80px;
+    margin: 5px 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(0);
+    animation: colorCycle 7s infinite ease-in-out;
+}
+
+span{
+    display: flex;
+}
+
+.divSlogan h1:nth-child(1){
+    background-image: #b92b27;  
+    background-image: -webkit-linear-gradient(to right,  #c31432, #240b36);  
+    background-image: linear-gradient(to right,  #c31432, #240b36);
+
+}
+
+.divSlogan h1:nth-child(2){
+    background-image: #b92b27;  
+    background-image: -webkit-linear-gradient(to left, #1565C0, #c31432);  
+    background-image: linear-gradient(to left, #1565C0, #c31432);
+    animation-delay: 3.5s;
+}
+
+.btnSlogan{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 153, 0);
+    width: 200px;
+    padding:10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size:15px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 18px 35px 3px rgba(255, 153, 0, 0.651);
+    transition: all .3s ease-in-out;
+}
+
+.btnSlogan:hover{
+    cursor: pointer;
+    background-color: rgb(223, 138, 11);
+}
+
+.btnSlogan:focus{
+    outline: none;
+}
+@media(max-width:800px){
+    .divSlogan{
+        height: 23rem;
+    }
+}
+
+@media(max-width:660px){
+    .divSlogan h1{
+        font-size: 65px;
+    }
+}
+@media(max-width:540px){
+    .btnSlogan{
+        font-size: 14px;
+        width: 150px;
+    }
+}
+
+@media(max-width:529px){
+    .divSlogan{
+        height: 24.5rem;
+    }
+}
+
+@media(max-width:420px){
+    .divSlogan h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .divSlogan{
+        padding: 15px;
+    }
+    .btnSlogan{
+        box-shadow: 0px 10px 25px 3px rgba(255, 153, 0, 0.651);
+    }
+}
+
+@media(max-width:340px){
+    .divSlogan{
+        height: 23rem;
+    }
+    .divSlogan h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .btnSlogan{
+        font-size: 12px;
+        width: 100px;
+    }
+}

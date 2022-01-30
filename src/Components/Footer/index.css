@@ -1,0 +1,87 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 40px;
+    box-shadow: 0px -20px 30px 5px rgba(0, 0, 0, 0.315);
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+
+.navegation a{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 5px;
+    transition: all .3s ease-in-out;
+}
+
+.navegation p {
+    text-align: center;
+}
+
+.contactFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactFooter div{
+    display: flex;
+}
+
+.icons i{
+    font-size: 25px;
+    margin: 0px 5px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.icons a:hover, .navegation a:hover{
+    color: rgb(255, 153, 0);
+    text-shadow: 0px 0px 10px rgba(255, 153, 0, 0.164);
+}
+
+@media(max-width:915px){
+    footer div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:824px){
+    .navegation{
+        margin-bottom: 20px;
+    }
+    .icons{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:420px){
+    .icons i{
+        font-size: 20px;
+    }
+    .navegation a{
+        font-size:14px;
+    }
+}
+
+@media(max-width:340px){
+    .icons i{
+        font-size: 19px;
+    }
+    .navegation a{
+        font-size:13px;
+    }
+    footer{
+        padding: 20px;
+    }
+}

@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background:transparent;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.navList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    letter-spacing: .5px;
+    transition: all .5s ease-in-out;
+}
+
+.navList a{
+    text-decoration: none;
+}
+
+.navList li{
+    padding:0px;
+    margin: 5px 18px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.navList li:hover{
+    cursor: pointer;
+}
+
+.btnMobileMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnMobileMenu i{
+    font-size: 35px;
+    color: black;
+}
+
+.btnMobileMenu button{
+    display: none;
+    background: transparent;
+    border:none;
+} 
+
+@media(max-width:660px){
+    .navList li{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 480px){
+    .navbar{
+        display: block;
+    }
+    .navList{
+        display: flex;
+        flex-direction: column;
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .btnMobileMenu button{
+        display: block;
+    } 
+    .active .navbar{
+        height:20rem;
+        overflow: none;
+    }
+    .active .navList{
+        display: flex;
+        flex-direction: column;
+        height: 130px;
+        padding:15px;
+    }
+}
+
+@media(max-width:340px){
+    .navList li{
+        font-size: 14px;
+    }
+}

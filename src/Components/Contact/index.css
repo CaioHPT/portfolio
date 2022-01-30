@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.divContact h2{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.divContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    animation: introContact 1.5s ease-in-out;
+}
+
+@keyframes introContact{
+    0%{
+        opacity: 0;
+        transform:translateY(50px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.textContact div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContact span{
+    margin: 8px 5px;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.textContact a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContact a:hover span{
+    font-size: 19px;
+    color:rgb(255, 153, 0);
+    font-weight: bold;
+}
+
+@media(max-width: 865px){
+    .divContact h2{
+        font-size: 42px;
+    }
+    .textContact span{
+        font-size: 16px;
+    }
+    .textContact a:hover span{
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 720px){
+    .divContact{
+        margin: 60px 40px;
+    }
+}
+
+
+@media(max-width: 360px){
+    .divContact h2{
+        font-size: 35px;
+    }
+    .textContact span{
+        font-size: 14px;
+    }
+    .textContact a:hover span{
+        font-size: 13.5px;
+    }
+}
+
+@media(max-width: 310px){
+    .divContact h2{
+        font-size: 32px;
+    }
+    .textContact span{
+        font-size: 13.5px;
+    }
+    .textContact a:hover span{
+        font-size: 14px;
+    }
+}
