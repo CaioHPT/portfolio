@@ -15,7 +15,7 @@ const Footer = () => {
                         <a href="mailto:caio.h.teixeira@gmail.com" target="_blank"><span><i className="bi bi-envelope-fill"></i></span></a>
                         <a href="https://web.whatsapp.com/send?phone=5511976366619" target="_blank"><span><i className="bi bi-whatsapp"></i></span></a>
                         <a href="https://github.com/CaioHPT" target="_blank"><span><i className="bi bi-github"></i></span></a>
-                        <a href='https://www.linkedin.com/in/caioteixeira1/' target="_blank"><span><i className="bi bi-linkedin"></i></span></a>
+                        <a href='https://www.linkedin.com/in/caioteixeiradev/' target="_blank"><span><i className="bi bi-linkedin"></i></span></a>
                     </div>
                 </div>
                 <div>
