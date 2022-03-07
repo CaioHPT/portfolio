@@ -11,7 +11,6 @@ const Footer = () => {
                     <a href="#contact">Contato</a>
                 </div>
                 <div className="contactFooter">
-                    <p>Contato</p>
                     <div className='icons'>
                         <a href="mailto:caio.h.teixeira@gmail.com" target="_blank"><span><i className="bi bi-envelope-fill"></i></span></a>
                         <a href="https://web.whatsapp.com/send?phone=5511976366619" target="_blank"><span><i className="bi bi-whatsapp"></i></span></a>
