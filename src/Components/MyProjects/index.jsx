@@ -3,7 +3,6 @@ import './index.css'
 import fotoMoveit from '../../images/fotoMoveit.jpg'
 import fotoTCC from '../../images/fotoTcc.jpg'
 import fotoRedux from '../../images/fotoRedux.jpg'
-import fotoSiteCarros from '../../images/fotoSiteCarros.jpg'
 import fotoCalculadora from '../../images/fotoCalculadora.jpg'
 
 
@@ -18,56 +17,52 @@ const MyProjects = () => {
                     </section>
                 </div>
                 <div className="col-12 col-md">
-                <section className="projects text-center">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Laborum et aut quia doloremque, quaerat, dolore eius.
-                    </p>
-                    <div className="divCarousel">
-                        <div className="carousel" data-flickity='{ "cellAlign": "left" ,
+                    <section className="projects text-center">
+                        <p>
+                            Alguns dos meus projetos web individuais e em grupo para praticar.
+                        </p>
+                        <div className="divCarousel">
+                            <div className="carousel" data-flickity='{ "cellAlign": "left" ,
                         "freeScroll": true, "wrapAround": true}'>
-                            <div className="carousel-cell">
-                                <div className="cardCarousel" >
-                                    <a href='https://brothers-cars.herokuapp.com'target="_blank">
-                                        <div className="card">
-                                            <img src={fotoTCC} />
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="carousel-cell">
-                                <div className="cardCarousel" >
-                                    <a href="https://moveit-one-taupe.vercel.app" target="_blank">
-                                        <div className="card">
-                                            <img src={fotoMoveit} />
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="carousel-cell">
-                                <div className="cardCarousel" >
-                                    <div className="card">
-                                        <img src={fotoRedux} />
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href='https://brothers-cars.herokuapp.com' target="_blank">
+                                            <div className="card">
+                                                <img src={fotoTCC} alt="Site do meu tcc" />
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="carousel-cell">
-                                <div className="cardCarousel" >
-                                    <div className="card">
-                                        <img src={fotoSiteCarros} />
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href="https://moveit-one-taupe.vercel.app" target="_blank">
+                                            <div className="card">
+                                                <img src={fotoMoveit} alt="Foto do Moveit feito na nlw" />
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="carousel-cell">
-                                <div className="cardCarousel" >
-                                    <div className="card">
-                                        <img src={fotoCalculadora} />
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href="https://reduxappdev.netlify.app/" target="_blank">
+                                            <div className="card">
+                                                <img src={fotoRedux} alt="Foto do projeto para treinar redux" />
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href="https://react-calculadora-app.netlify.app/" target="_blank">
+                                            <div className="card">
+                                                <img src={fotoCalculadora} alt="Foto da calculadora feita em react"/>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
                 </div>
             </div>
         </div>

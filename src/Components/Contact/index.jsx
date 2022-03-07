@@ -25,9 +25,9 @@ const Contact = () => {
                     </a>
                 </div>
                 <div>
-                    <a href='https://www.linkedin.com/in/caioteixeira1/' target="_blank">
+                    <a href='https://www.linkedin.com/in/caioteixeiradev/' target="_blank">
                         <span><i className="bi bi-linkedin"></i></span>
-                        <span>https://www.linkedin.com/in/caioteixeira1/</span>
+                        <span>https://www.linkedin.com/in/caioteixeiradev/</span>
                     </a>
                 </div>
             </div>
