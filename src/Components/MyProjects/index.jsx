@@ -4,7 +4,7 @@ import fotoMoveit from '../../images/fotoMoveit.jpg'
 import fotoTCC from '../../images/fotoTcc.jpg'
 import fotoRedux from '../../images/fotoRedux.jpg'
 import fotoCalculadora from '../../images/fotoCalculadora.jpg'
-
+import fotoNextApp from '../../images/fotoNextApp.jpg'
 
 const MyProjects = () => {
     return (
@@ -56,6 +56,15 @@ const MyProjects = () => {
                                         <a href="https://react-calculadora-app.netlify.app/" target="_blank">
                                             <div className="card">
                                                 <img src={fotoCalculadora} alt="Foto da calculadora feita em react"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href="https://search-users-git.vercel.app" target="_blank">
+                                            <div className="card">
+                                                <img src={fotoNextApp} alt="Foto de um site de pesquisa de usuarios do github feito com nextjs"/>
                                             </div>
                                         </a>
                                     </div>
