@@ -5,6 +5,7 @@ import fotoTCC from '../../images/fotoTcc.jpg'
 import fotoRedux from '../../images/fotoRedux.jpg'
 import fotoCalculadora from '../../images/fotoCalculadora.jpg'
 import fotoNextApp from '../../images/fotoNextApp.jpg'
+import fotoContributorsProject from '../../images/fotoContributorsProject.jpg'
 
 const MyProjects = () => {
     return (
@@ -65,6 +66,16 @@ const MyProjects = () => {
                                         <a href="https://search-users-git.vercel.app" target="_blank">
                                             <div className="card">
                                                 <img src={fotoNextApp} alt="Foto de um site de pesquisa de usuarios do github feito com nextjs"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href="https://contributors-and-roles.vercel.app" target="_blank">
+                                            <div className="card">
+                                                <img src={fotoContributorsProject} 
+                                                alt="Foto de um site que mostra os colaboradores e cargos da pedido pago, feito com nextjs"/>
                                             </div>
                                         </a>
                                     </div>
