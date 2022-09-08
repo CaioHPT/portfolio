@@ -12,8 +12,8 @@ const About = () => {
                 <div className="aboutText">
                     <h4>Caio Teixeira - Desenvolvedor Full Stack</h4>
                     <p>
-                    Olá, eu sou o Caio, tenho 18 anos e sou programador Full Stack, atualmente 
-                    trabalho para a Recode como Monitor do programa RecodePro. 
+                    Olá, eu sou o Caio, tenho 19 anos e sou programador Full Stack, atualmente 
+                    trabalho para a Klab como Desenvolvedor de software. 
                     Sou muito curioso sobre assuntos que envolvem o mundo tech de uma maneira geral 
                     e sigo sempre estudando e me atualizando, especialmente em programação. 
                     Eu estudo programação desde meus 16 anos e neste período seleciono esses 3 pontos como os maiores aprendizados até aqui: 

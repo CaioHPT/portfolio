@@ -6,6 +6,8 @@ import fotoRedux from '../../images/fotoRedux.jpg'
 import fotoCalculadora from '../../images/fotoCalculadora.jpg'
 import fotoNextApp from '../../images/fotoNextApp.jpg'
 import fotoContributorsProject from '../../images/fotoContributorsProject.jpg'
+import fotoFreela from '../../images/fotoFreela.jpg'
+
 
 const MyProjects = () => {
     return (
@@ -76,6 +78,16 @@ const MyProjects = () => {
                                             <div className="card">
                                                 <img src={fotoContributorsProject} 
                                                 alt="Foto de um site que mostra os colaboradores e cargos da pedido pago, feito com nextjs"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="carousel-cell">
+                                    <div className="cardCarousel" >
+                                        <a href="https://nova-opcao.vercel.app" target="_blank">
+                                            <div className="card">
+                                                <img src={fotoFreela} 
+                                                alt="Foto de um freelancer feito para a nova opção"/>
                                             </div>
                                         </a>
                                     </div>
