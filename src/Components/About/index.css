@@ -36,12 +36,12 @@
 
 .aboutText h4{
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.171);
 }
 
 .aboutText p {
-    margin: 30px 5px 10px 5px;
+    margin: 5px;
 }
 
 .circlePhoto{
