@@ -116,6 +116,13 @@ span{
     }
 }
 
+@media(max-width:480px){
+    .divSlogan{
+        height: 19rem;
+        padding: 15px;
+    }
+}
+
 @media(max-width:420px){
     .divSlogan h1{
         font-size: 50px;
@@ -123,18 +130,16 @@ span{
     p{
         font-size: 14px;
     }
-    .divSlogan{
-        padding: 15px;
-    }
     .btnSlogan{
         box-shadow: 0px 10px 25px 3px rgba(255, 153, 0, 0.651);
+    }
+    .divSlogan{
+        height: 16rem;
+        padding: 10px;
     }
 }
 
 @media(max-width:340px){
-    .divSlogan{
-        height: 23rem;
-    }
     .divSlogan h1{
         font-size: 40px;
     }

@@ -231,6 +231,12 @@
     }
 }
 
+@media(max-width: 480px){
+    .divProjects{
+        margin: 15px 10px;
+    }
+}
+
 @media(max-width: 420px){
     .title h1{
         font-size: 40px;
@@ -254,11 +260,6 @@
     }
 }
 
-@media(max-width: 400px){
-    .divProjects{
-        margin: 15px 10px;
-    }
-}
 
 @media(max-width: 340px){
     .divProjects{
@@ -277,5 +278,16 @@
     }
     .PhotoBackGround{
         padding: 20px
+    }
+    .card{
+        width: 14rem;
+        height: 7rem;
+    }
+    .card:hover{
+        width: 15rem;
+        height: 7.5rem;
+    }
+    .carousel-cell{
+        height: 145px;
     }
 }

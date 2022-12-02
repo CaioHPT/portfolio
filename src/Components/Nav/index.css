@@ -67,6 +67,7 @@
         flex-direction: column;
         height: 0px;
         overflow: hidden;
+        margin: 0px;
     }
 
     .btnMobileMenu button{
@@ -79,7 +80,7 @@
     .active .navList{
         display: flex;
         flex-direction: column;
-        height: 130px;
+        height: 110px;
         padding:15px;
     }
 }
@@ -87,5 +88,8 @@
 @media(max-width:340px){
     .navList li{
         font-size: 14px;
+    }
+    .navbar{
+        padding: 8px 0px 0px 0px;
     }
 }
