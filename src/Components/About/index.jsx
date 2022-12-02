@@ -20,7 +20,7 @@ const About = () => {
                     1. É uma área desafiadora e eu gosto disso, um desafio recente foi meu primeiro projeto completo 
                     envolvendo front end e back end ligados, apresentado como TCC. 
                     2. Aprendo coisas novas o tempo todo e isso me motiva muito, 
-                    adoro ser provocado a aprender algo novo. 
+                    adoro ser instigado a aprender algo novo. 
                     3. A maioria dos aprendizados são construídos nas trocas de informações e compartilhamento de 
                     conhecimento com outras pessoas e, 
                     para mim, trabalhar e estudar em equipe/times tem sido um dos pontos mais relevantes da minha carreira.
